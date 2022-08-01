@@ -24,8 +24,6 @@ customize exception, utils that used in every service.
 9. the **user_service** is for user information operation (add/delete/modification/query)
 
 
-
-
 # what framework/third library is used
 
 * spring cloud alibaba nacos for service registration and discovery
@@ -35,9 +33,6 @@ customize exception, utils that used in every service.
 * mysql for storing structural data such as user basic info, friend relationship, requests, posts
 * mongodb for storing user avatar pic
 * kafka for storing chatting messages
-
-
-
 
 # supported features
 
@@ -58,7 +53,14 @@ customize exception, utils that used in every service.
 14. view/edit basic info 
 
 
-# todo list
+# test accounts
+
+* email: f1@qq.com, password: 123
+* email: f2@qq.com, password: 123
+* email: f3@qq.com, password: 123
+* email: f4@qq.com, password: 123
+
+# todo list (temporarily due to the hardware limitation of the server)
 
 1. add the feature of querying history message by keyword (using elastic search)
 2. add cache layer (using redis) to decrease the latency of API
